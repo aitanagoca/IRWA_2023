@@ -63,14 +63,23 @@ The output of the last part of the Text Processing COde is a dictionary where th
  --Top 10 words and their frequencies--
 
 Word: ukrain - Frequency: 1088
+
 Word: russian - Frequency: 1022
+
 Word: russia - Frequency: 609
+
 Word: the - Frequency: 563
+
 Word: putin - Frequency: 510
+
 Word: ukrainian - Frequency: 469
+
 Word: war - Frequency: 467
+
 Word: forc - Frequency: 277
+
 Word: i - Frequency: 267
+
 Word: region - Frequency: 253
 
 ### Most Retweeted Tweets
