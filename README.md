@@ -219,4 +219,28 @@ Username: @Militarylandnet
 
 ## Output Part 2 (Indexing)
 
+### Adaptation of data to create inverted indexes
+
+***example: tweet_lines_list[1]***
+
+1575918081461080065|doc_2|the arm forc liber villag urban territori commun region drobysheve lymansk donetsk ukraine russia war ukraine war ukraine ukraine will win ukrainian army ukrainecounteroffensive ukraine war news slava ukra stand with ukraine
+
+### Inverted index 
+
+**- WITH term position information:** Total time to create the index: 2.95 seconds.
+
+**- WITHOUT term position information:** Total time to create the index: 304.12 seconds
+
+### Selected queries
+
+**- Query 1:** "Eastern separatists groups"
+
+**- Query 2:** "Humanitarian impact"
+
+**- Query 3:** "Media coverage of war"
+
+**- Query 4:** "Negotiations in war"
+
+**- Query 5:** "Russian propaganda and disinformation"
+
 ## Output Part 2 (Evaluation)
