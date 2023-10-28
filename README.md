@@ -231,6 +231,70 @@ Username: @Militarylandnet
 
 **- WITHOUT term position information:** Total time to create the index: 304.12 seconds
 
+### Example search_tf_idf()
+
+**QUERY 1**
+
+Eastern separatists groups
+
+======================
+Top 10 results out of 55 for the searched query:
+
+
+tweet_id = 1575842840768569344 - tweet_title: doc_538 - score: 9.068672454039067
+tweet_text: The spokesman of the Eastern group of troops Cherevaty reported that the encirclement of the Russian group near Lyman in Donetsk region is "at the stage of completion"
+#UkraineRussiaWar https://t.co/drAsg9PDes
+
+tweet_id = 1575818569857658880 - tweet_title: doc_812 - score: 7.9992014749313505
+tweet_text: First Official APU Report on Lyman:  "The operation to encircle the Russian group in the Estuary is at the completion stage" —  Sergey Cherevaty, Eastern Grouping 
+
+#UkraineRussiaWar 
+#OSINT
+#Fellas #NAFO
+
+tweet_id = 1575821202064834560 - tweet_title: doc_776 - score: 7.348035242319465
+tweet_text: Cherevaty, the spokesperson of the Eastern group of troops, reported the encirclement of the #Russian group near #Lyman in the #Donetsk region is “at the stage of completion.” #Ukraine #UkraineRussiaWar #UkraineWar 
+
+📷 Tpyxa https://t.co/jUcJncxRJ6
+
+tweet_id = 1575820237010006017 - tweet_title: doc_790 - score: 7.255889456636643
+tweet_text: Update: Addition comments from APU Eastern Grouping
+
+#UkraineRussiaWar 
+#OSINT
+#Fellas #NAFO https://t.co/svKSKcy403
+
+tweet_id = 1575180675002486785 - tweet_title: doc_3778 - score: 6.671130033545804
+tweet_text: @nytimes Wherever these 200k draft dodgers have gone, they're many enough to be the future Russian separatists beloved by Putin #UkraineRussiaWar #RussianArmy #Russians
+
+tweet_id = 1575818037130731520 - tweet_title: doc_820 - score: 6.655307724400341
+tweet_text: ❗️Official comment on the situation in Lyman from the military
+
+ 💬 "The operation to encircle the Russian group in Lyman is "at the stage of completion", - the representative of the Eastern group Serhiy Chereviy.
+#UkraineWillWin 
+#UkraineWar 
+#UkraineRussiaWar 
+#Russian https://t.co/vuKHUpOfoF
+
+tweet_id = 1575785557896007682 - tweet_title: doc_1183 - score: 5.720494003765528
+tweet_text: The head of the Russian-backed separatist administration in east Ukraine's Donetsk region said the Russian stronghold of Lyman was "semi-encircled" by the Ukrainian army and that news from the front was "alarming."
+
+#Russia | #Donetsk | #UkraineRussiaWar 
+
+https://t.co/sGp1vw7334
+
+tweet_id = 1575488992929513473 - tweet_title: doc_2382 - score: 4.629911409155417
+tweet_text: Ukrainian Forces at the Eastern front in action. https://t.co/ocDykq9rI5 lewat @YouTube #war #ukraine #russia #ukrainerussiawar #nowar
+
+tweet_id = 1575353426564857857 - tweet_title: doc_2977 - score: 3.6605877681494445
+tweet_text: Russian attack hits a school in eastern Ukraine's town of Mykolaivka being used by residents as a shelter.
+
+#UkraineRussiaWar 
+https://t.co/s5ji7BpJ8h
+
+tweet_id = 1575822314586808320 - tweet_title: doc_745 - score: 3.3648667793298763
+tweet_text: Reports of #Russian battle groups and bombers en route to #Lyman are just to cover the retreat, I think.  The settlement is gone. #UkraineRussiaWar
+
 ### Selected queries
 
 **- Query 1:** "Eastern separatists groups"
