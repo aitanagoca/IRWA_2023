@@ -37,6 +37,40 @@ most_retweeted(tweets_dic: dict): dict.
 
 wordcloud_words(words_w_freq: list): none.
 
+### Indexing (Part 2)
+
+create_index(): 
+
+search():
+
+create_index_tfidf():
+
+rank_documents():
+
+search_tf_idf():
+
+### Evaluation (Part 2)
+
+get_data_ev():
+
+precision_at_k():
+
+recall_at_k():
+
+avg_precision_at_k():
+
+f1_score_at_k():
+
+map_at_k():
+
+rr_at_k():
+
+mrr_at_k():
+
+dcg_at_k():
+
+ndcg_at_k():
+
 ## Output Part 1 (Text Processing)
 
 The output of the last part of the Text Processing Code is a dictionary where the keys are all the docs name (with doc_xxx format) of the tweets and, for each key, the value is another dictionary with the data of the tweet. An example of a key-value pair from the output dictionary would be the following:
@@ -182,3 +216,7 @@ Username: @Militarylandnet
 ### Most Frequent Hashtags (WordCloud)
 
 <img width="720" alt="Captura de pantalla 2023-10-20 a les 16 48 32" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/fc9c14b6-e77c-4ff2-baa8-65eb991852b9">
+
+## Output Part 2 (Indexing)
+
+## Output Part 2 (Evaluation)
