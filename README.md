@@ -39,37 +39,35 @@ wordcloud_words(words_w_freq: list): none.
 
 ### Indexing (Part 2)
 
-create_index(): 
+create_index(lines: list): two lists (index & title_index)
 
-search():
+search(query: str, index: list): list (with ids).
 
-create_index_tfidf():
+create_index_tfidf(lines: list, num_documents: int): lists (index, tf, df, idf, title_index)
 
-rank_documents():
+rank_documents(terms: string, docs: list, index: list, idf: list, tf: list): two lists (one with ids and the other with scores)
 
-search_tf_idf():
+search_tf_idf(query: str, index: list): two lists (one with ids and the other with scores)
 
 ### Evaluation (Part 2)
 
-get_data_ev():
+precision_at_k(doc_score: list, y_score: list, k: int): float.
 
-precision_at_k():
+recall_at_k(doc_score: list, y_score: list, k: int): float.
 
-recall_at_k():
+avg_precision_at_k(doc_score: list, y_score: list, k: int): float.
 
-avg_precision_at_k():
+f1_score_at_k(doc_score: list, y_score: list, k: int): float.
 
-f1_score_at_k():
+map_at_k(search_res: list, k: int): float.
 
-map_at_k():
+rr_at_k(doc_score: list, y_score: list, k: int): float.
 
-rr_at_k():
+mrr_at_k(search_res: list, k: int): float.
 
-mrr_at_k():
+dcg_at_k(doc_score: list, y_score: list, k: int): float.
 
-dcg_at_k():
-
-ndcg_at_k():
+ndcg_at_k(doc_score: list, y_score: list, k: int): float.
 
 ## Output Part 1 (Text Processing)
 
