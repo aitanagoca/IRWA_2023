@@ -244,3 +244,253 @@ Username: @Militarylandnet
 **- Query 5:** "Russian propaganda and disinformation"
 
 ## Output Part 2 (Evaluation)
+
+### Dataframe created with the queries (.head())
+
+<img width="472" alt="Captura de pantalla 2023-10-28 a les 23 31 17" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/16f7e06b-a5c4-43f4-84fb-76d83a0c3e75">
+
+### Evaluation techniques (Selected queries)
+
+#### Precision@k
+
+Query1 -  Precision@4: 1.0
+
+Query2 -  Precision@4: 0.5
+
+Query3 -  Precision@4: 0.5
+
+Query4 -  Precision@4: 0.5
+
+Query5 -  Precision@4: 0.75
+
+Query1 -  Precision@8: 0.75
+
+Query2 -  Precision@8: 0.625
+
+Query3 -  Precision@8: 0.625
+
+Query4 -  Precision@8: 0.5
+
+Query5 -  Precision@8: 0.625
+
+Query1 -  Precision@12: 0.5
+
+Query2 -  Precision@12: 0.6666666666666666
+
+Query3 -  Precision@12: 0.75
+
+Query4 -  Precision@12: 0.5833333333333334
+
+Query5 -  Precision@12: 0.5
+
+Query1 -  Precision@16: 0.4375
+
+Query2 -  Precision@16: 0.5625
+
+Query3 -  Precision@16: 0.625
+
+Query4 -  Precision@16: 0.5
+
+Query5 -  Precision@16: 0.4375
+
+Query1 -  Precision@20: 0.5
+
+Query2 -  Precision@20: 0.5
+
+Query3 -  Precision@20: 0.5
+
+Query4 -  Precision@20: 0.5
+
+Query5 -  Precision@20: 0.5
+
+#### Recall@k
+
+Query1 -  Recall@4: 0.4
+
+Query2 -  Recall@4: 0.2
+
+Query3 -  Recall@4: 0.2
+
+Query4 -  Recall@4: 0.2
+
+Query5 -  Recall@4: 0.3
+
+Query1 -  Recall@8: 0.6
+
+Query2 -  Recall@8: 0.5
+
+Query3 -  Recall@8: 0.5
+
+Query4 -  Recall@8: 0.4
+
+Query5 -  Recall@8: 0.5
+
+Query1 -  Recall@12: 0.6
+
+Query2 -  Recall@12: 0.8
+
+Query3 -  Recall@12: 0.9
+
+Query4 -  Recall@12: 0.7
+
+Query5 -  Recall@12: 0.6
+
+Query1 -  Recall@16: 0.7
+
+Query2 -  Recall@16: 0.9
+
+Query3 -  Recall@16: 1.0
+
+Query4 -  Recall@16: 0.8
+
+Query5 -  Recall@16: 0.7
+
+Query1 -  Recall@20: 1.0
+
+Query2 -  Recall@20: 1.0
+
+Query3 -  Recall@20: 1.0
+
+Query4 -  Recall@20: 1.0
+
+Query5 -  Recall@20: 1.0
+
+#### AvgPrecision@20
+
+Query1 -  Average Precision@20: 0.7575271512113617
+
+Query2 -  Average Precision@20: 0.670554298642534
+
+Query3 -  Average Precision@20: 0.6098701298701299
+
+Query4 -  Average Precision@20: 0.5729698028150041
+
+Query5 -  Average Precision@20: 0.6145588235294117
+
+#### F1-Score@k
+
+Query1 -  F1-Score@4: 0.5714285714285715
+
+Query2 -  F1-Score@4: 0.28571428571428575
+
+Query3 -  F1-Score@4: 0.28571428571428575
+
+Query4 -  F1-Score@4: 0.28571428571428575
+
+Query5 -  F1-Score@4: 0.4285714285714285
+
+Query1 -  F1-Score@8: 0.6666666666666665
+
+Query2 -  F1-Score@8: 0.5555555555555556
+
+Query3 -  F1-Score@8: 0.5555555555555556
+
+Query4 -  F1-Score@8: 0.4444444444444445
+
+Query5 -  F1-Score@8: 0.5555555555555556
+
+Query1 -  F1-Score@12: 0.5454545454545454
+
+Query2 -  F1-Score@12: 0.7272727272727272
+
+Query3 -  F1-Score@12: 0.8181818181818182
+
+Query4 -  F1-Score@12: 0.6363636363636365
+
+Query5 -  F1-Score@12: 0.5454545454545454
+
+Query1 -  F1-Score@16: 0.5384615384615384
+
+Query2 -  F1-Score@16: 0.6923076923076923
+
+Query3 -  F1-Score@16: 0.7692307692307693
+
+Query4 -  F1-Score@16: 0.6153846153846154
+
+Query5 -  F1-Score@16: 0.5384615384615384
+
+Query1 -  F1-Score@20: 0.6666666666666666
+
+Query2 -  F1-Score@20: 0.6666666666666666
+
+Query3 -  F1-Score@20: 0.6666666666666666
+
+Query4 -  F1-Score@20: 0.6666666666666666
+
+Query5 -  F1-Score@20: 0.6666666666666666
+
+#### MAP@k
+
+MAP@4: 0.195
+
+MAP@8: 0.3537380952380952
+
+MAP@12: 0.49712193362193363
+
+MAP@16: 0.5544424464424464
+
+MAP@20: 0.6450960412136884
+
+#### MRR@k
+
+MRR@4 = MRR@8 = MRR@12 = MRR@16 = MRR@20: 0.7667
+
+#### NDCG@k
+
+Query1 -  NDCG@4: 1.0
+
+Query2 -  NDCG@4: 0.5585
+
+Query3 -  NDCG@4: 0.3633
+
+Query4 -  NDCG@4: 0.4144
+
+Query5 -  NDCG@4: 0.7537
+
+Query1 -  NDCG@8: 0.8224
+
+Query2 -  NDCG@8: 0.6296
+
+Query3 -  NDCG@8: 0.4974
+
+Query4 -  NDCG@8: 0.4565
+
+Query5 -  NDCG@8: 0.6582
+
+Query1 -  NDCG@12: 0.7156
+
+Query2 -  NDCG@12: 0.7372
+
+Query3 -  NDCG@12: 0.6835
+
+Query4 -  NDCG@12: 0.5885
+
+Query5 -  NDCG@12: 0.6322
+
+Query1 -  NDCG@16: 0.7706
+
+Query2 -  NDCG@16: 0.795
+
+Query3 -  NDCG@16: 0.7374
+
+Query4 -  NDCG@16: 0.6463
+
+Query5 -  NDCG@16: 0.6873
+
+Query1 -  NDCG@20: 0.9234
+
+Query2 -  NDCG@20: 0.8478
+
+Query3 -  NDCG@20: 0.7374
+
+Query4 -  NDCG@20: 0.75
+
+Query5 -  NDCG@20: 0.842
+
+### Vector representation
+
+<img width="566" alt="Captura de pantalla 2023-10-28 a les 23 37 37" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/56cc769c-be5f-4e11-9b2b-b8a2edb28150">
+
+<img width="414" alt="Captura de pantalla 2023-10-28 a les 23 38 03" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/d5e7480c-aaee-4a62-83d1-1850de80d158">
+
+
