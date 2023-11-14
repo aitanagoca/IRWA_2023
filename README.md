@@ -71,7 +71,7 @@ ndcg_at_k(doc_score: list, y_score: list, k: int): float.
 
 ### Ranking (Part 3)
 
-def create_mapping(lines: list): list
+create_mapping(lines: list): list
 
 rank_our_score(terms: list, docs: list, index: list, idf, tf, tweets: list, doc_to_tweet: dict): two lists (one with result_docs and the other with result_scores)
 
