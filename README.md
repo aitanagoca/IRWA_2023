@@ -69,6 +69,21 @@ dcg_at_k(doc_score: list, y_score: list, k: int): float.
 
 ndcg_at_k(doc_score: list, y_score: list, k: int): float.
 
+### Ranking (Part 3)
+
+def create_mapping(lines: list): list
+
+rank_our_score(terms: list, docs: list, index: list, idf, tf, tweets: list, doc_to_tweet: dict): two lists (one with result_docs and the other with result_scores)
+
+search_our_score(query: list, index: list, tweets: list, doc_to_tweet: dict): two lists (one with result_docs and the other with result_scores)
+
+embedding_w2v(terms: list, wmodel: dict): float
+
+rank_Word2Vec(query: list, docs: list, doc_to_tweet: dict, tweets: list): two lists (one with result_docs and the other with result_scores)
+
+search_word2vec(query: list, index: list, doc_to_tweet: dict, tweets: list): two lists (one with ranked_docs and the other with rank_scores)
+
+
 ## Output Part 1 (Text Processing)
 
 The output of the last part of the Text Processing Code is a dictionary where the keys are all the docs name (with doc_xxx format) of the tweets and, for each key, the value is another dictionary with the data of the tweet. An example of a key-value pair from the output dictionary would be the following:
