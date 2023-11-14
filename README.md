@@ -570,4 +570,12 @@ Query5 -  NDCG@20: 0.842
 
 <img width="414" alt="Captura de pantalla 2023-10-28 a les 23 38 03" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/d5e7480c-aaee-4a62-83d1-1850de80d158">
 
+## Output Part 2 (TF-IDF+cosine similarity vs Our score+cosine similarity)
+The proposed scoring mechanism also takes into account the number of likes (20%), the number of retweets (20%) and the presence of relevant hashtags (60%). This change has caused some changes in the ranking of search results compared to the TF-IDF + Cosine Similarity.
 
+This new scoring approach prioritizes tweets with higher engagement (likes and retweets) and a stronger presence of relevant hashtags, potentially capturing more popular and widely discussed content about the query in question. However, it is important to keep in mind that, as we have seen in the tweets obtained for each query, the nature of the participation (likes and retweets) does not always reflect the accuracy or credibility of the information.
+
+To carry out the comparison of both methods, we performed different Precision@k with 5 different K's. First of all, we review the tweets returned by our_score and assign them a ground_truth that we consider correct in order to perform this check. Regarding the ground_truth of the tweets returned by tf-idf, we already had a ground_truth selected in the previous part of this project, so we used the same values ​​in that case.
+
+We obtain the following results for TF-IDF + Cosine Similarity and for Our-Score + Cosine SImilarity respectively:
+<img width="396" alt="image" src="https://github.com/raquel-sb/IRWA_2023/assets/72573624/d9c92450-7491-4641-9e1e-ab4b13a76a00">
