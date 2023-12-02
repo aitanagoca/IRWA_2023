@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block page_title %}{{ page_title }}{% endblock %}
+{% block content %}
+    Found <strong>{{ found_counter }}</strong> results...
+    
+    <hr>
+    {% for item in results_list %}
+        <div class="pb-3" style="border: 1px solid #ccc; margin-bottom: 10px; padding: 10px;">
+            <div class="doc-title"style="font-size: 18px">
+                <a href="{{ url_for('doc_details', id=item.id, tweet=item.tweet, username=item.username, date=item.date, likes=item.likes, retweets=item.retweets, url=item.url, ranking=item.ranking) }}">{{ item.title }}...
+                </a>
+            </div>
+            <div class="cited">
+                <cite> <a href="https://twitter.com/{{ item.url }}"style="color: #999;font-size: 14px">{{ item.url }}</a></cite>
+            </div>
+            <div class="doc-desc"style="font-size: 16px">
+                <span style="color: #222;">{{ item.date }} — {{ item.username }}:</span> <span style="color: #555;">{{ item.tweet }}</span>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}
+
