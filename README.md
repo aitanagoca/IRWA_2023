@@ -83,6 +83,9 @@ rank_Word2Vec(query: list, docs: list, doc_to_tweet: dict, tweets: list): two li
 
 search_word2vec(query: list, index: list, doc_to_tweet: dict, tweets: list): two lists (one with ranked_docs and the other with rank_scores)
 
+### User Interface & Web Analytics (Part 4)
+
+(see /Project part 4)
 
 ## Output Part 1 (Text Processing)
 
@@ -581,3 +584,22 @@ To carry out the comparison of both methods, we performed different Precision@k 
 
 We obtain the following results for TF-IDF + Cosine Similarity and for Our-Score + Cosine SImilarity respectively:
 <img width="396" alt="image" src="https://github.com/raquel-sb/IRWA_2023/assets/72573624/d9c92450-7491-4641-9e1e-ab4b13a76a00">
+
+## Output Part 4
+
+<img width="1440" alt="Captura de pantalla 2023-12-01 a les 20 21 17" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/7d6449c5-fa8d-41a5-8772-23691aff5e78">
+
+<img width="1440" alt="Captura de pantalla 2023-12-01 a les 20 20 23" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/33c7ee18-4487-472a-8b01-5d4bce17e6a1">
+
+<img width="1440" alt="Captura de pantalla 2023-12-01 a les 20 18 56" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/3a3a4e71-36d6-4409-a860-4127b01924cc">
+
+<img width="1440" alt="Captura de pantalla 2023-12-01 a les 20 17 32" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/7a514b1a-44f5-4433-b264-7929741c591c">
+
+<img width="1440" alt="Captura de pantalla 2023-12-01 a les 20 17 57" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/3d6140fd-0bce-4543-babf-ef586f78537b">
+
+<img width="1440" alt="Captura de pantalla 2023-12-01 a les 20 18 06" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/4f0ce889-4779-4561-9ea8-2fc6a172e68b">
+
+<img width="1440" alt="Captura de pantalla 2023-12-01 a les 20 18 26" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/1793c2ac-5fce-4e0b-ba5a-c41b92f89751">
+
+<img width="1440" alt="Captura de pantalla 2023-12-01 a les 20 18 38" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/74d29bb4-5dde-43b2-9f8f-54fde844cb37">
+
