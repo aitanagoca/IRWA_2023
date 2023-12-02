@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block page_title %}{{ page_title }}{% endblock %}
+{% block content %}
+
+<style>
+    .back-links {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .back-links a {
+        margin-right: 10px;
+    }
+
+    a {
+        color: #1da1f2;
+        text-decoration: none;
+    }
+</style>
+
+<div class="back-links">
+    <a href="#" onclick="history.go(-1)">Go Back</a>|
+    <a href="#" onclick="history.go(-2)">&nbsp;Go Back 2 pages</a>|
+    <a href="#" onclick="history.go(-3)">&nbsp;Go Back 3 pages</a>
+</div>
+
+<br>
+
+<h2><b><i>Quick Stats:</i></b></h2>
+<br>
+<h4>Clicked docs</h4>
+<hr style="height: 2px; background-color: black; border: none;">
+
+{% for doc in clicks_data %}
+<div class="pb-3">
+    <div class="">
+        <span class="text-dark"> ({{ doc.count }} visits) </span> — id: {{ doc.id }} — {{ doc.tweet }}
+        <br>
+        <span class="text-dark"><a><u>Dwell time:</u> </a></span> {{
+        "%03d"|format(doc.time_difference.total_seconds() % 60) }} <a> seconds</a>
+        <br>
+        <span class="text-dark"><a><u>Related query:</u> </a></span> {{ doc.rel_query }}
+    </div>
+</div>
+<hr style="height: 2px; background-color: rgba(0, 0, 0, 0.20); border: none;">
+{% endfor %}
+
+<br>
+<h4>Searched queries</h4>
+<hr style="height: 2px; background-color: black; border: none;">
+
+{% set unique_queries = [] %}
+{% for doc in clicks_data %}
+    {% if doc.rel_query not in unique_queries %}
+        <div class="pb-3">
+            <div>
+                <span class="text-dark"><u>Query:</u> {{ doc.rel_query }}</span>
+                <br>
+                <span class="text-dark"><u>Number of terms:</u> {{ doc.rel_query.split() | length }}</span>
+            </div>
+        </div>
+        {% set _ = unique_queries.append(doc.rel_query) %}
+        <hr style="height: 2px; background-color: rgba(0, 0, 0, 0.20); border: none;">
+    {% endif %}
+{% endfor %}
+
+<br>
+<h4>User context</h4>
+<hr style="height: 2px; background-color: black; border: none;">
+
+{% for doc in clicks_data %}
+<div class="pb-3">
+    <div class="">
+        <span class="text-dark"><a><u>Browser:</u> </a></span> {{ doc.browser }}
+        <br>
+        <span class="text-dark"><a><u>Time of the day:</u> </a></span> {{ doc.search_initiation_time.strftime('%H:%M:%S') }}
+        <br>
+        <span class="text-dark"><a><u>Date:</u> </a></span> {{ doc.search_initiation_time.strftime('%Y-%m-%d') }}
+        <br>
+        <span class="text-dark"><a><u>IP address:</u> </a></span> {{ doc.ip_address }}
+        <br>
+        <span class="text-dark"><a><u>OS:</u> </a></span>
+        {% set os_name = doc.os_info['platform']['name'] %}
+        {% set os_version = doc.os_info['platform']['version'] %}
+        {{ os_name }} {{ os_version }}
+    </div>
+</div>
+<hr style="height: 2px; background-color: rgba(0, 0, 0, 0.20); border: none;">
+{% endfor %}
+
+{% endblock %}
