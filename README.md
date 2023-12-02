@@ -603,3 +603,4 @@ We obtain the following results for TF-IDF + Cosine Similarity and for Our-Score
 
 <img width="1440" alt="Captura de pantalla 2023-12-01 a les 20 18 38" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/74d29bb4-5dde-43b2-9f8f-54fde844cb37">
 
+<img width="1440" alt="Captura de pantalla 2023-12-01 a les 20 21 47" src="https://github.com/raquel-sb/IRWA_2023/assets/92036724/5a839e95-d276-4b4d-baeb-f4dd8cc443ef">
