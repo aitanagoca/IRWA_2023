@@ -1,5 +1,25 @@
 # IRWA 2023
 
+**Description:**
+
+This subject explores techniques for retrieving and analyzing information from large-scale data sources, particularly the web. It combines information retrieval (IR) principles with web data mining to address challenges like search engine design, data extraction, and user behavior analysis.
+
+**Topics Covered:**
+
+**- Information Retrieval Basics:** Fundamentals of indexing, ranking (TF-IDF, PageRank), and query processing.
+
+**- Search Engine Architecture:** Crawling, indexing, and efficient query handling.
+
+**- Web Mining:** Analyzing content, link structures, and user interactions.
+
+**- NLP in IR:** Query understanding, semantic search, and neural models like BERT.
+
+**- Web Analytics:** Traffic analysis, clickstream data, and behavioral insights.
+
+**- Ethics and Privacy:** Challenges in data privacy, fairness, and bias in algorithms.
+
+This subject provides foundational knowledge for building and analyzing systems that organize and retrieve web-based information effectively.
+
 ## Group Information
 
 👥 Group: (G101, grup 07)
