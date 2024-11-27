@@ -1,4 +1,4 @@
-# IRWA_2023
+# IRWA 2023
 
 ## Group Information
 
@@ -9,6 +9,8 @@ Aitana González
 Mireia Carbó
 
 Raquel Sans
+
+# PROJECT
 
 ## Functions
 
