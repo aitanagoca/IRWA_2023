@@ -1,5 +1,14 @@
 # IRWA_2023
-Group G_101_7: Mireia Carbó, Aitana González and Raquel Sans
+
+## Group Information
+
+👥 Group: (G101, grup 07)
+
+Aitana González
+
+Mireia Carbó
+
+Raquel Sans
 
 ## Functions
 
